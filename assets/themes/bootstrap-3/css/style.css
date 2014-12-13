@@ -42,6 +42,9 @@ h1, h2, h3, h4 {
   margin-bottom: 20px;
   font-weight: bold; }
 
+.post-full .content {
+  text-align: justify; }
+
 /* tag_box */
 .tag_box {
   list-style: none;
