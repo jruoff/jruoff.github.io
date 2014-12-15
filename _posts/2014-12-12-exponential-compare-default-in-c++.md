@@ -6,7 +6,7 @@ tags : [C++, programming, flaws]
 ---
 {% include JB/setup %}
 
-Recently I noticed a design flaw in the C++ standard. (Even though this flaw was foreseen by Alexander Stepanov, the designer of the C++ standard template library.) Leading to an algorithm with exponential time-complexity for lexicographical ordering defined in terms of `operator<`. In case you are wondering, yes, this type of ordering is the default for all STL containers.
+Recently I noticed a design flaw in the C++ standard. Even though this flaw was foreseen by Alexander Stepanov, the designer of the C++ standard template library, it is prevalent in its current implementation. The flaw leads to an algorithm with exponential time-complexity for lexicographical ordering implemented in terms of `operator<`. In case you are wondering, this type of ordering is the default for all STL containers.
 
 
 ## Sorting and Searching
